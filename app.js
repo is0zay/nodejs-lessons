@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
 			res.end();
 		});
 	}
-	});
+});
 
 //here we are telling our server to be hosted on port 4000 in our local host
 server.listen(port, (err) => {

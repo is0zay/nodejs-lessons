@@ -1,0 +1,32 @@
+APIs
+	- Application Programming Interface
+	- What is Rest?
+		- Representational State Trnasfer
+		- it is an architectural pattern for creating web services
+		- Restful service is one that implements that pattern
+		Routes
+			- Routes determine the way an application responds to a client request
+				- CLIENTS CAN MAKE GET, POST, PUT, OR DELETE HTTP REQUEST to a URL
+			- Routes are used to divert users to different parts of the web applications based on the request made
+			Syntax of a Route
+				app.METHOD(PATH, HANDLER)
+					
+	- What is an API?
+		-the set of RESTful routes can be considered the app's API
+		- the possible ways of interacting with the data
+
+	- Relationship between the server and an API
+		- an API is not the same as the remote server
+		- it is the part of the server that receives requests and sends responses
+
+
+
+
+JSON
+	- JavaScript Object Notation
+	- A syntax for storing and exchanging data
+	- to exchange data to/from a web server
+	- when receiving data from a web server, the data is always a string
+		- parse the data with JSON.parse(), and sata becomes javascript Object
+	- when sending data to a web server, data has to be sent as a string
+		- use stringify to convert to string
